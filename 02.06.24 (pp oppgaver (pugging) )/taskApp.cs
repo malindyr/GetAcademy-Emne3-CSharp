@@ -46,7 +46,20 @@ class TaskApp
         }
     }
 
-    public void RemoveTask(){
-    
+    public void RemoveTask() {
+
+        Console.WriteLine($"press the corresponding number with the task you would like to delete")
+
+
+        int i = 0;
+        foreach (Task task in Tasks)
+        {
+            Console.WriteLine($"{i}, {Tasks[i].Title}");
+        }
+
+        var Answer = Console.ReadLine();
+      
+
+                
     }
 }
