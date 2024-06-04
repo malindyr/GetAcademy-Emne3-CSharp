@@ -51,7 +51,7 @@
         }
     }
 
-    public void CalculateSum()
+    private void CalculateSum()
     {
         int sum = 0;
         foreach(var product in Cart)
