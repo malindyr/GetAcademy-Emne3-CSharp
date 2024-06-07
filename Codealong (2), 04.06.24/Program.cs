@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using Codealong__2___04._06._24;
+
+var shop = new Shop();
+
+shop.AddToCart();
