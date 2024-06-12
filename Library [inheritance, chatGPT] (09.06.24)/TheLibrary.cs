@@ -26,15 +26,10 @@ namespace Library__inheritance__chatGPT___09._06._24_
         public void ItemsAvailable()
         {
             AvailableItems = new List<LibraryItem>(AllLibraryItems.Where(x => !x.IsBorrowed));
-
-            //foreach (var item in AvailableItems) {Console.WriteLine($"\r\nitem title: {item.Title}\r\n");}
         }
 
         public void RemoveItem(string titleToDelete)
         {
-            /*Console.WriteLine("Write the title of the book you would like to remove from the Library");
-            var TitleToDelete = Console.ReadLine();*/
-
             var itemToDelete = AllLibraryItems.FirstOrDefault(x => x.Title == titleToDelete);
             if (itemToDelete != null)
             {
