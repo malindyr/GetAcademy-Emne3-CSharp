@@ -20,10 +20,7 @@ namespace battle_simulator__06._08._24_
             Strength = strength;
             _initialstamina = stamina;          
         }
-        public static void Print(string textLine)
-        {
-            Console.WriteLine(textLine);
-        }
+        public static void Print(string textLine) => Console.WriteLine(textLine);
         public void randomStrength()
         {
             Random rand = new Random();

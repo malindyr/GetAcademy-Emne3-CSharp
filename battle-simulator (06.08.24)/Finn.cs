@@ -23,19 +23,13 @@ namespace battle_simulator__06._08._24_
             Stamina = stamina;
             _initialstamina = Stamina;
         }
+        public static void Print(string textLine) => Console.WriteLine(textLine);
 
-
-        public static void Print(string textLine)
-        {
-            Console.WriteLine(textLine);
-        }
-
-        /* * Helten blir spilt av deg med bruk av Console.ReadLine, mens motparten blir spilt av dataen.*/
         public void Fight(ICharacter opponent)
         {
             int[] validStrengthsArray = {1, 2, 3};
-            Print("choose strength to hit with; \r\n 1, 2 or 3. Press corresponding number"); //print func
-            var input = Console.ReadLine(); //parse -> console.readline()
+            Print("choose strength to hit with; \r\n 1, 2 or 3. Press corresponding number"); 
+            var input = Console.ReadLine(); 
 
             if (int.TryParse(input, out int strengthToUse) && validStrengthsArray.Contains(strengthToUse))
             {
@@ -56,16 +50,7 @@ namespace battle_simulator__06._08._24_
                 Print("you missed your chance by clicking the wrong button");
             }
         }
-
         public bool isAlive() => Health > 0;
-        {
-            bool alive = true;
-            if (Health <= 0) 
-            {
-                alive = false;
-            }
-            return alive; 
-        }
 
         public void Recharge()
         {

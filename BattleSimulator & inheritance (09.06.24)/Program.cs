@@ -13,7 +13,7 @@ while (BMO.IsAlive && LemonGrab.IsAlive)
 
     BMO.Fight(LemonGrab);
 
-    if(BMO.IsAlive && LemonGrab.IsAlive)
+    if(LemonGrab.IsAlive)
     {
         LemonGrab.Fight(BMO);
     }  

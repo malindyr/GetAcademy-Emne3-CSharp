@@ -16,11 +16,7 @@ namespace battle_simulator__06._08._24_
 
         public void Fight(ICharacter opponent);
         public void Recharge();
-        public bool isAlive();
 
-        public static void Print(string textLine)
-        {
-            Console.WriteLine(textLine);
-        }
+        public static void Print(string textLine) => Console.WriteLine(textLine);
     }
 }
