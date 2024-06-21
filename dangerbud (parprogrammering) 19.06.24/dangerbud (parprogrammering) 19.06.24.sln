@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dangerbud (parprogrammering) 19.06.24", "dangerbud (parprogrammering) 19.06.24.csproj", "{D301D854-1D37-4E99-A02D-730F24F57F8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D301D854-1D37-4E99-A02D-730F24F57F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D301D854-1D37-4E99-A02D-730F24F57F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D301D854-1D37-4E99-A02D-730F24F57F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D301D854-1D37-4E99-A02D-730F24F57F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD8B6186-2697-4F27-88A9-76323FB6BB24}
+	EndGlobalSection
+EndGlobal
